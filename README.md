@@ -47,6 +47,4 @@ pip install numpy scipy pyaudio sounddevice matplotlib
 1. Open `VoiceTransformer.ipynb`.
 2. Run the notebook to see the visualizations, listen to the processed wav files, and explore the advanced theories behind Granular Synthesis and LPC.
 
-## Troubleshooting
-- **No audio devices found (PyAudio/sounddevice)**: Check your OS-level microphone privacy settings to ensure the environment has permission to use the microphone. If using WSL, you may need a workaround for audio pass-through.
-- **PortAudio missing errors**: Make sure `pyaudio` installed successfully. On Windows, simply running `pip install pyaudio` usually suffices as it bundles pre-built C wheels.
+
